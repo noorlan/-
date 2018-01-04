@@ -376,3 +376,13 @@ td img {
 .footer p {
 	padding: 0 0 10px 0;
 }
+
+/* CSS Mobile */
+
+@media only screen
+and (min-device-width: 375px)
+and (max-device-width: 667px) {
+	.header {
+		background-color: #257965;
+	}
+}
